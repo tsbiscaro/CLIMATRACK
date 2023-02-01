@@ -1,0 +1,44 @@
+#Arquivo de parametros
+#Input folder
+/home/user/IN_S_INT/2015/12/
+#Forecast output folder
+/home/user/FCST/
+#Statistics output folder
+/home/user/OUTPUT/
+#0 = satellite, 1 = radar
+1
+#Minimum cell size (pixeis)
+10
+#Max invalid lines number (satellite only)
+40
+#Max consecutive invalid lines number (satellite only)
+4
+#0 = degrees, 1 = meters
+1
+#Number of pixels - longitude (x)
+250
+#Number of pixels - latitude (y)
+250
+#Pixel size - x
+2000.0
+#Pixel size - y
+2000.0
+#NW image corner - Longitude
+-62.2370
+#NW image corner - Latitude
+-0.9104
+#Threshold for identification - Kelvin or dBZ
+45.0
+#Forecast step time (minutes)
+10
+#Forecast outputs
+1
+#Maximum time between 2 images (minutes)
+40
+#Fraction overlap between 2 cells to assume continuity (%)
+15
+#Invalid values
+-99
+#Output: screen (1) file (2) ou both (3)
+2
+#End of file
